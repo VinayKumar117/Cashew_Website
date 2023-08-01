@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Cashews</title>
+    <!-- <link rel="stylesheet" href="/Gym website/CSS/Gym.CSS"> -->
+    <style>
+        body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://media.istockphoto.com/id/470795758/photo/bowl-of-halved-cashew-nuts-in-a-wooden-bowl.jpg?s=612x612&w=0&k=20&c=X7fr4wCs0oF0z9rn3XIUXYpn8hJ1wt-1MpNbgAGJnIY=');
+        
+    }
+    .left{
+        position: absolute;
+        top: 22px;
+          display: inline-block;
+          left: 34px;
+           /* border: 2px solid grey; */
+           
+    }
+    .mid{
+           
+           text-align: center;
+           width: 33%;
+           margin: 22px auto;
+           /* border: 2px solid gray; */
+        
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        display: inline-block;
+           /* border: 2px solid gray; */
+    }
+    .navbar{
+        display: inline-block;
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 9px
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .left img{
+        width: 131px;
+        height: 84px;
+    }
+    .logotext{
+        color: white;
+        text-align: center;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        /* border: 2px solid gray; */
+        border-radius: 10px; 
+        font-size: 20px;
+        cursor: pointer;
+          }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        /* border: 2px solid gray; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        /* border-radius: 28px; */
+    }
+    .form-group input{
+        text-align: center;
+    display: block;
+    width: 356px;
+    padding: 4px;
+    /* border: 4px solid white; */
+    margin: 11px auto;
+    font-size: 25px;
+    /* border-radius: 38px; */
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://i.ibb.co/DLF5vgv/cashew1.jpg" alt="">
+            
+            <div class="logotext">Surya Cashews</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" >About us</a></li>
+                <li><a href="#" >Fitness Calculator</a></li>
+                <li><a href="#" >Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">
+             Call us now
+            </button>
+            <button class="btn">
+             Email now
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Order the Best Cashew now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+    </div>
+    
+</body>
+</html>
